@@ -62,3 +62,286 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?-grvpaa");
+  src: url("../fonts/icomoon.eot?#iefix-grvpaa") format("embedded-opentype"), url("../fonts/icomoon.woff?-grvpaa") format("woff"), url("../fonts/icomoon.ttf?-grvpaa") format("truetype"), url("../fonts/icomoon.svg?-grvpaa#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, ../sass/font.scss */
+[class^="fa-"], [class*=" fa-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 26, ../sass/font.scss */
+.fa-mail:before {
+  content: "\f03b";
+}
+
+/* line 30, ../sass/font.scss */
+.fa-plus:before {
+  content: "\f05d";
+}
+
+/* line 34, ../sass/font.scss */
+.fa-quill:before {
+  content: "\e600";
+}
+
+/* line 38, ../sass/font.scss */
+.fa-redo:before {
+  content: "\e601";
+}
+
+/* line 42, ../sass/font.scss */
+.fa-twitter:before {
+  content: "\e608";
+}
+
+/* line 46, ../sass/font.scss */
+.fa-search:before {
+  content: "\f002";
+}
+
+/* line 50, ../sass/font.scss */
+.fa-star:before {
+  content: "\f005";
+}
+
+/* line 54, ../sass/font.scss */
+.fa-refresh:before {
+  content: "\f021";
+}
+
+/* line 58, ../sass/font.scss */
+.fa-chain:before {
+  content: "\f0c1";
+}
+
+/* line 62, ../sass/font.scss */
+.fa-resize:before {
+  content: "\e603";
+}
+
+/* line 66, ../sass/font.scss */
+.fa-resize:before {
+  content: "\e603";
+}
+
+/* line 70, ../sass/font.scss */
+.fa-notifications:before {
+  content: "\e607";
+}
+
+/* line 74, ../sass/font.scss */
+.fa-notifications:before {
+  content: "\e607";
+}
+
+/* line 78, ../sass/font.scss */
+.fa-more-horiz:before {
+  content: "\e606";
+}
+
+/* line 82, ../sass/font.scss */
+.fa-notifications:before {
+  content: "\e607";
+}
+
+/* line 6, ../sass/style.scss */
+header {
+  height: 50px;
+}
+/* line 9, ../sass/style.scss */
+header .menu {
+  width: 15%;
+  height: 100%;
+  border-right: 1px solid #F1EDE6;
+}
+/* line 15, ../sass/style.scss */
+header .controlls {
+  display: inline-block;
+  line-height: 50px;
+  width: 70%;
+  text-align: center;
+}
+/* line 21, ../sass/style.scss */
+header .fa-quill {
+  color: white;
+  margin: 10px auto;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 100px;
+  background-color: #81A9CA;
+}
+/* line 31, ../sass/style.scss */
+header .fa-twitter {
+  color: #81A9CA;
+}
+/* line 34, ../sass/style.scss */
+header .avatar {
+  float: right;
+  display: inline-block;
+  overflow: hidden;
+  width: 14%;
+  height: 100%;
+  text-align: center;
+  /* line-height: 30px; */
+  border-radius: 100px;
+}
+/* line 43, ../sass/style.scss */
+header .avatar img {
+  width: 30px;
+  height: 30px;
+  padding: 10px 10px 10px 0;
+}
+
+/* line 51, ../sass/style.scss */
+.left {
+  float: left;
+}
+
+/* line 55, ../sass/style.scss */
+.right {
+  float: right;
+}
+
+/* line 59, ../sass/style.scss */
+.center {
+  padding-top: 20px;
+  background-color: #f2eee8;
+}
+/* line 62, ../sass/style.scss */
+.center .tweets {
+  height: 100%;
+  width: 90%;
+  margin: 20px auto;
+  background-color: #fffbf5;
+}
+/* line 68, ../sass/style.scss */
+.center .tweets .avatar {
+  float: left;
+  display: inline-block;
+  overflow: hidden;
+  width: 14%;
+  height: 100%;
+  text-align: center;
+  /* line-height: 30px; */
+  border-radius: 100px;
+}
+/* line 77, ../sass/style.scss */
+.center .tweets .avatar img {
+  width: 30px;
+  height: 30px;
+  padding: 10px 10px 10px 10px;
+}
+/* line 84, ../sass/style.scss */
+.center .tweets .links {
+  float: left;
+}
+/* line 87, ../sass/style.scss */
+.center .tweets .links a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #C1BCAD;
+}
+/* line 95, ../sass/style.scss */
+.center .tweets .fa-resize {
+  float: right;
+  padding: 0 10px;
+  color: #C1BCAD;
+}
+/* line 101, ../sass/style.scss */
+.center .tweets li {
+  border-bottom: 1px solid #F1EDE8;
+  padding: 10px;
+}
+/* line 106, ../sass/style.scss */
+.center .tweets .tweet {
+  float: right;
+  width: 80%;
+}
+/* line 110, ../sass/style.scss */
+.center .tweets .tweet .content {
+  margin-bottom: 5px;
+}
+/* line 113, ../sass/style.scss */
+.center .tweets .tweet .time {
+  float: right;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+/* line 118, ../sass/style.scss */
+.center .tweets .tweet .name {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+/* line 124, ../sass/style.scss */
+.center .status {
+  width: 90%;
+  height: 30px;
+  margin: 20px auto;
+  background-color: #fffbf5;
+}
+/* line 130, ../sass/style.scss */
+.center .status .data li {
+  float: left;
+  font-size: 0.6em;
+  display: inline-block;
+  width: 25%;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* line 142, ../sass/style.scss */
+.left {
+  float: left;
+}
+
+/* line 145, ../sass/style.scss */
+.right {
+  float: right;
+}
+
+/* line 148, ../sass/style.scss */
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media screen and (max-width: 450px) {
+  /* line 155, ../sass/style.scss */
+  header button {
+    display: none;
+  }
+  /* line 158, ../sass/style.scss */
+  header input {
+    display: none;
+  }
+  /* line 162, ../sass/style.scss */
+  header .controlls {
+    height: 100%;
+    width: 70%;
+  }
+
+  /* line 167, ../sass/style.scss */
+  aside {
+    display: none;
+  }
+}

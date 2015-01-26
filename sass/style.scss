@@ -1,2 +1,173 @@
 @import "compass/reset";
 @import "compass/css3";
+@import "font";
+
+
+header {
+  height: 50px;
+
+  .menu {
+    width: 15%;
+    height: 100%;
+    border-right: 1px solid #F1EDE6;
+  }
+
+  .controlls {
+    display: inline-block;
+    line-height: 50px;
+    width: 70%;
+    text-align: center;
+  }
+  .fa-quill {
+    color: white;
+    margin: 10px auto;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 100px;
+    background-color: #81A9CA;
+  }
+  .fa-twitter {
+    color: #81A9CA;
+  }
+  .avatar {
+    float: right;
+    display: inline-block;
+    overflow: hidden;
+    width: 14%;
+    height: 100%;
+    text-align: center;
+    /* line-height: 30px; */
+    border-radius: 100px;
+    img {
+      width: 30px;
+      height: 30px;
+      padding: 10px 10px 10px 0;
+    }
+  }
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  padding-top: 20px;
+  background-color: #f2eee8;
+  .tweets{
+    height: 100%;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fffbf5;
+
+    .avatar {
+      float: left;
+      display: inline-block;
+      overflow: hidden;
+      width: 14%;
+      height: 100%;
+      text-align: center;
+      /* line-height: 30px; */
+      border-radius: 100px;
+      img {
+        width: 30px;
+        height: 30px;
+        padding: 10px 10px 10px 10px;
+      }
+    }
+
+    .links {
+      float: left;
+
+      a {
+        display: inline-block;
+        margin-right: 10px;
+        text-decoration: none;
+        color: #C1BCAD;
+      }
+    }
+
+    .fa-resize {
+      float: right;
+      padding: 0 10px;
+      color: #C1BCAD;
+    }
+
+    li {
+      border-bottom: 1px solid #F1EDE8;
+      padding: 10px;
+    }
+
+    .tweet {
+      float: right;
+      width: 80%;
+
+    .content {
+      margin-bottom: 5px;
+    }
+    .time {
+      float: right;
+      padding: 0 10px;
+      margin-bottom: 10px;
+      }
+    .name {
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+    }
+  }
+  .status {
+    width: 90%;
+    height: 30px;
+    margin: 20px auto;
+    background-color: #fffbf5;
+
+    .data li {
+      float: left;
+      font-size: 0.6em;
+      display: inline-block;
+      width: 25%;
+      height: 30px;
+      text-align: center;
+      padding-top: 5px;
+    }
+  }
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix:after {
+  content:"";
+  display:block;
+  clear:both;
+}
+@media screen and (max-width: 450px) {
+  header {
+    button {
+      display: none;
+    }
+    input {
+      display: none;
+    }
+
+    .controlls {
+      height: 100%;
+      width: 70%;
+    }
+  }
+  aside {
+    display: none;
+  }
+
+
+
+}
